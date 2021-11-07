@@ -6,9 +6,19 @@ const btn = document.querySelector("#btn");
 const jelekKingTompel = "./img/tompel2.png";
 const kerenKingTompel = "./img/tompel1.png";
 
-//event
+//event mouse
 btn.addEventListener("mousedown", jelekbang);
 btn.addEventListener("mouseup", kerenbang);
+
+//event touchscreen
+btn.addEventListener("touchstart", function(e) {
+    e.preventDefault();
+    jelekbang();
+})
+btn.addEventListener("touchstart", function(e) {
+    e.preventDefault();
+    kerenbang();
+})
 
 //fungsi 
 function jelekbang() {
