@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #2e2929, #000000);
+}
+
+.sahalagaming{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#poptom{
+    margin-top: 40px;
+    height: 400px;
+}
+
+#btn{
+    width: 150px;
+    height: 70px;
+    font-size: 2em;
+    border: 3px solid #e0d0c6;
+    background-color: transparent;
+    color: white;
+    margin-top: 35px;
+    user-select: none;
+    border-radius: 30px;
+}
+
+#btn:focus{
+    outline: none;
+}
+
+#btn:active{
+    border: 3pxs solid darkgray;
+    color: darkgray;
+}
