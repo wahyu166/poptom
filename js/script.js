@@ -15,7 +15,7 @@ btn.addEventListener("touchstart", function(e) {
     e.preventDefault();
     jelekbang();
 })
-btn.addEventListener("touchstart", function(e) {
+btn.addEventListener("touchend", function(e) {
     e.preventDefault();
     kerenbang();
 })
